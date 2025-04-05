@@ -56,6 +56,11 @@
 		    <artifactId>h2</artifactId>
 		    <scope>runtime</scope>
 		</dependency>
+		
+		<properties>
+    		<sonar.projectKey>ci-cd-microservice</sonar.projectKey>
+		properties>
+
 
 	</dependencies>
 
