@@ -29,6 +29,9 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	 <properties>
+        <sonar.projectKey>ci-cd-microservice</sonar.projectKey>
+    	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -56,10 +59,6 @@
 		    <artifactId>h2</artifactId>
 		    <scope>runtime</scope>
 		</dependency>
-		
-		<properties>
-    		<sonar.projectKey>ci-cd-microservice</sonar.projectKey>
-		properties>
 
 
 	</dependencies>
